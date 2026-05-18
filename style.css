@@ -6,3 +6,37 @@
   padding: 0;
   font-family: "Roboto", sans-serif;
 }
+
+body {
+  background: url(../images/bluebubble.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.header {
+  font-style: italic;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 1rem;
+  color: #f5f9ff;
+  text-shadow: 0px 4px 12px #29475f;
+}
+
+.btn {
+  width: 11rem;
+  height: 2.8rem;
+  border-radius: 32px;
+  font-size: 1.5rem;
+  color: #29475f;
+  background-color: #a6cbd4;
+  transition-duration: 0.4s;
+  border: 1px solid #29475f;
+  box-shadow: 0 4px 12px rgba(41, 71, 95, 0.5);
+}
+
+.btn:hover {
+  background-color: #f5f9ff;
+  box-shadow: 0 2px 8px rgba(41, 71, 95, 0.5);
+}
