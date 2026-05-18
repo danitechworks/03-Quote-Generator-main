@@ -44,19 +44,27 @@ body {
 .main-content {
   justify-self: center;
   margin-top: 2rem;
-  width: 400px;
-  height: 300px;
+  width: 450px;
+  height: 200px;
   justify-content: center;
   backdrop-filter: blur(6px);
-  border: 1px solid #29475f;
+  /* border: 1px solid #29475f; */
   border-radius: 32px;
 }
 
 .quote {
+  color: #29475f;
   margin-top: 16px;
-  margin-left: 16px;
+  margin-left: 20px;
   margin-right: 16px;
+  font-size: 1.8rem;
 }
 
 .person {
+  color: #29475f;
+  font-style: italic;
+  margin-top: 8px;
+  margin-left: 20px;
+  margin-right: 16px;
+  font-size: 1.7rem;
 }
