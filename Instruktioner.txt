@@ -1,0 +1,39 @@
+Quote Generator
+
+Denna app ska slumpa fram en ny quote när användaren klicka på en knapp.
+
+1: Importera Google Font Roboto 400
+
+2: Se till att Roboto används som standard font.
+
+3: Börja med markup. 
+	a: Skapa en header med text
+	b: Skapa en main-content div
+	c: Skapa en div som innehåller quote
+	d: Skapa en div som innehåller personen som sa quoten
+	e: Skapa en knapp (som kommer att generera en ny quote)
+
+4: I CSS styla som du vill (börja med att centrera all innehåll - googla hur man gör)
+	a: Se till att lägga till en bakgrundsbild
+	b: Styla din header, text, personen och knappen
+
+
+JAVASCRIPT
+
+5: Du behöver skapa 3 variabler
+	a: En för knappen
+	b: En för qoute texten
+	c: En för personen
+
+6: Du behöver skapa en array som innehåller dina quotes (minst 10st). Googla hur man skapa en array.
+	Du kan hitta några qoutes på denna sida
+	https://www.goodreads.com/quotes
+
+7: Lägg till en listener på din knapp.
+	a. I din callback method slumpa fram en random siffra mellan 0 & max längd på din array storlek
+	b. Med denna siffra kan du nu med hjälp av iinerText uppdatera din qoute & person med ny info från din quotes array.
+
+
+Lycka till!
+
+
