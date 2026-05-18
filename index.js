@@ -1,6 +1,6 @@
 const btn = document.querySelector(".btn");
-const quotes = document.querySelector(".quotes");
-const authors = document.querySelector(".authors");
+const quote = document.querySelector(".quote");
+const person = document.querySelector(".person");
 
 const quotes = [
   {
@@ -185,3 +185,11 @@ const quotes = [
     person: "Will Rogers",
   },
 ];
+
+btn.addEventListener("click", newQuote);
+
+function newQuote() {
+  let randomNumber = Math.floor(Math.random() * quotes.length);
+  quote.innerText = quotes[randomNumber].quote;
+  person.innerText = quotes[randomNumber].person;
+}
