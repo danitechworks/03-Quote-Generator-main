@@ -27,6 +27,11 @@ A minimalist quote generator web application that displays random inspirational 
 └── README.md       # This file
 ```
 
+## Live Demo
+
+The project is live and published at:  
+**http://dannellbayer.com/03-Quote-Generator-main/**
+
 ## How to Run
 
 1. Clone the repository or download the files
